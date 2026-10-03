@@ -71,7 +71,7 @@ try:
     sitemap = ET.parse(SITE / 'sitemap.xml')
     sitemap_urls = [node.text for node in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
     if set(sitemap_urls) != expected_urls or len(sitemap_urls) != len(expected_urls):
-        errors.append('Sitemap does not match the seven indexable production routes')
+        errors.append('Sitemap does not match all indexable production routes')
 except (OSError, ET.ParseError) as error:
     errors.append(f'Invalid sitemap: {error}')
 if f'Sitemap: {ORIGIN}/sitemap.xml' not in (SITE / 'robots.txt').read_text(encoding='utf-8'):

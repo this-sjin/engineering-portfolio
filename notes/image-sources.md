@@ -195,3 +195,16 @@ Replaced six small PDF-derived project photos with higher-resolution copies of t
 The full-resolution 3000 × 2434 Camera Rig hero is now WebP quality 90: 846,196 bytes instead of the original JPEG’s 1,801,147 bytes (53% smaller). No crop, image generation, or geometry change was applied. The curated JPEG remains available; source materials were untouched. Technical drawings and FEA legends remain uncropped.
 
 During the final privacy check, GPS metadata was found in that retained public JPEG. Removed its EXIF/XMP metadata segments without recompressing the JPEG image data and verified identical decoded RGB pixels. It is now 1,793,088 bytes, SHA-256 `73a5db0407f71a702a85d9d00c1010e80afaad07e320bfae81ad98098e2a52f9`. The earlier byte-identical-copy entries describe its pre-sanitization state. Original source/Downloads files were unchanged, and the WebP hero already contains no GPS metadata.
+
+## Mind-inator report and presentation assets — October 3, 2026
+
+All source files remain unchanged. Native image dimensions preserved; WebP quality 93; no cropping or generated imagery.
+
+| Public asset | Read-only source and embedded image | Dimensions | SHA-256 |
+| --- | --- | --- | --- |
+| `mind-inator/competition-robot.webp` | `project-documents/ME 2110 final report/EMO - Final Presentation.pptx` → `image27.png` | 933 × 708 | `57e267f0980d6c0d39420ea458289f1ff2db1cf3be9fe4782a8d26b14ac5c6d2` |
+| `mind-inator/retrieval-cad.webp` | `project-documents/ME 2110 final report/EMO - Final Presentation.pptx` → `image15.png` | 892 × 683 | `e33a7fcd6ffb5f49008571e8ebd946c0a840e50f7ea41f2005ca29d68e822f9e` |
+| `mind-inator/scissor-lift.webp` | `project-documents/ME 2110 final report/EMO - Final Presentation.pptx` → `image26.png` | 1548 × 612 | `54aee3cc3fb022a389819fc435e982c658ad0e4ffc923701a3b5b85c5d865027` |
+| `mind-inator/telescoping-lift.webp` | `project-documents/ME 2110 final report/EMO - Final Presentation.pptx` → `image24.png` | 1546 × 606 | `52a5eec57608cb63b14c30caa42a01f9db6ce8e6bf3c2769bbd849795859598f` |
+| `mind-inator/assembled-robot.webp` | `project-documents/ME 2110 final report/Team EMO - Final Report.docx` → `image69.png` | 953 × 1270 | `c1eaf7cbce89f4db288ac990ad2f95d728b5ac4a0bf4e80d75cbe60e51d7ac6d` |
+| `mind-inator/lift-test.webp` | `project-documents/ME 2110 final report/Team EMO - Final Report.docx` → `image65.png` | 1191 × 1073 | `7b6b7bc867383dae37d57371e57898835d763b0d73a62f0659f3da488c774f87` |

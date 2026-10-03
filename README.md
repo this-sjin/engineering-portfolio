@@ -2,7 +2,7 @@
 
 Personal engineering portfolio website focused on mechanical engineering, UAV systems, robotics, and systems integration.
 
-The finished static site is in `website/`. It has Home, Projects, four concise primary project pages, About, and a custom 404 page. No framework, package installation, build process, backend, or analytics is required.
+The finished static site is in `website/`. It has Home, Projects, four concise primary project pages, a supporting Mind-inator project page, About, and a custom 404 page. No framework, package installation, build process, backend, or analytics is required.
 
 ## Preview locally
 
@@ -34,4 +34,4 @@ Deploy **only `website/`** using Cloudflare Pages. Use the existing GitHub repos
 
 See [deployment instructions](notes/deployment-readiness.md) for account authorization, exact settings, and the final live-site checks. See [the completion review](notes/completion-review.md) for validation and remaining optional content improvements.
 
-The live production origin is **https://justinsejinpark.com**. Cloudflare reports the custom domain **Active / SSL enabled**. All seven content pages use this origin for canonical and Open Graph URLs and public social-preview images. `website/sitemap.xml` lists the seven indexable routes; `robots.txt` points to that sitemap. Local navigation remains relative. The Pages hostname is **https://engineering-portfolio-is3.pages.dev**.
+The live production origin is **https://justinsejinpark.com**. Cloudflare reports the custom domain **Active / SSL enabled**. All eight content pages use this origin for canonical and Open Graph URLs and public social-preview images. `website/sitemap.xml` lists the eight indexable routes; `robots.txt` points to that sitemap. Local navigation remains relative. The Pages hostname is **https://engineering-portfolio-is3.pages.dev**.

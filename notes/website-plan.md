@@ -1,5 +1,9 @@
 # Engineering portfolio website plan
 
+## Mind-inator amendment — October 3, 2026
+
+The user authorized a full concise Mind-inator page based on newly added ME 2110 final-report materials. Place it last in the full-project sequence, following Modular Quadcopter, and link it from Additional projects while preserving the four primary projects' greater prominence. Other secondary pages remain deferred. Missing video is an optional follow-up; do not invent a recording or publish a placeholder.
+
 ## Production-domain amendment — October 3, 2026
 
 Use **https://justinsejinpark.com** as the intended production origin. The user has authorized Cloudflare deployment/domain connection when access permits, stopping at authentication or approval. This supersedes earlier deployment deferral only; the approved visual system, content accuracy, privacy, read-only sources, and limits on additional pages remain unchanged. See [deployment-readiness.md](deployment-readiness.md) for current access status and exact settings.
