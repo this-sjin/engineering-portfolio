@@ -8,7 +8,11 @@ The user authorizes deployment and connection to the purchased domain when accou
 
 Cloudflare and GitHub are connected. The existing Pages project is **engineering-portfolio**, with hostname **engineering-portfolio-is3.pages.dev**. Its initial output directory was blank; this was corrected to **website**, with command **exit 0**, repository root unchanged, and production branch **main**. Retrying produced successful deployment **9d3f8f5f-81fb-41a1-8db4-d5d0957c35d7** from commit **0357d99** at 4:25 PM Eastern on October 3, 2026.
 
-The open **Confirm new DNS record** screen proposes **CNAME @ → engineering-portfolio-is3.pages.dev**, TTL Auto, for **justinsejinpark.com**. Click **Activate domain** to approve that record and domain connection, then tell this chat to resume. The agent stopped before this explicit domain approval, as requested. No DNS record was changed by the agent. Apex HTTPS/certificate and live-domain verification remain pending.
+The user approved activation. Cloudflare now reports **justinsejinpark.com — Active — SSL enabled**. HTTPS returned HTTP 200 on October 3, 2026, at approximately 4:34 PM Eastern. No further authentication or approval remains for the requested apex domain. The setup banner's “up to 48 hours” text remained visible even though the domain table and live response confirmed activation.
+
+## Completed production verification
+
+All **83 public files** were verified at **https://justinsejinpark.com**, including every content page, image, stylesheet, script, current resume PDF, sitemap, robots file, and custom 404. Binary assets matched exactly; text line endings and Cloudflare's existing email-obfuscation transformation were normalized for comparison. Cloudflare email obfuscation was left unchanged; the browser confirms email links decode to the approved `mailto:` address. All eight HTML pages served the expected security headers. Six nonexistent/private paths returned the custom HTTP 404. The production homepage rendered successfully with no console warnings/errors. The domain and certificate are live; `www` was not requested or configured.
 
 ## Completed Pages verification
 
