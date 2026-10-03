@@ -6,9 +6,13 @@ The user authorizes deployment and connection to the purchased domain when accou
 
 ## Current access boundary
 
-Cloudflare sign-in has completed. The dashboard confirms the purchased domain is active in the signed-in account; Workers & Pages shows no existing projects. Pages repository import is open and requires **Connect GitHub**. No Pages project, deployment, or DNS change has been created.
+Cloudflare and GitHub are connected. The existing Pages project is **engineering-portfolio**, with hostname **engineering-portfolio-is3.pages.dev**. Its initial output directory was blank; this was corrected to **website**, with command **exit 0**, repository root unchanged, and production branch **main**. Retrying produced successful deployment **9d3f8f5f-81fb-41a1-8db4-d5d0957c35d7** from commit **0357d99** at 4:25 PM Eastern on October 3, 2026.
 
-In the open tab, click **Connect GitHub**, sign in if prompted, and approve the Cloudflare integration for **`this-sjin/engineering-portfolio` only** (choose selected repositories rather than all repositories when offered). Complete authentication/MFA and installation approval yourself. Return to this chat once connected. Metadata alone does not establish hosting or DNS.
+The open **Confirm new DNS record** screen proposes **CNAME @ → engineering-portfolio-is3.pages.dev**, TTL Auto, for **justinsejinpark.com**. Click **Activate domain** to approve that record and domain connection, then tell this chat to resume. The agent stopped before this explicit domain approval, as requested. No DNS record was changed by the agent. Apex HTTPS/certificate and live-domain verification remain pending.
+
+## Completed Pages verification
+
+At `https://engineering-portfolio-is3.pages.dev`, all **83 public files** matched the curated local website (text line endings normalized; binary images and current resume matched exactly). All eight HTML pages served the expected security headers. Six missing/private routes returned the custom HTTP 404: a nested nonexistent page, source contact file, evidence note, deployment note, README, and Git configuration. A browser check confirmed homepage rendering without horizontal overflow at 1280 px, production canonical metadata, loaded hero/wordmark, working image dialog and Escape dismissal, and no console warnings/errors. The unchanged layout retains the earlier complete desktop/mobile QA recorded in the completion review. These checks verify Pages hosting, not yet the apex domain.
 
 ## Pages deployment
 
