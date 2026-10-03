@@ -47,7 +47,6 @@ button{font:inherit}
 .availability{border-top:1px solid var(--line);padding-top:20px;margin-top:28px;font-size:.86rem;color:var(--muted)}
 .availability strong{display:block;color:var(--ink);font-weight:600;margin-bottom:3px}
 .availability .undergraduate-degree{margin-top:12px}
-.availability-timing{margin:12px 0 0}
 .hero-image img{width:100%;max-height:540px;object-fit:contain;background:#e6e9eb;border-radius:var(--radius)}
 .hero-image figcaption{display:flex;justify-content:space-between;gap:12px}
 .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
