@@ -6,9 +6,9 @@ The user authorizes deployment and connection to the purchased domain when accou
 
 ## Current access boundary
 
-The Cloudflare dashboard reached Google sign-in asking Justin to enter his password. No authenticated account, Pages project, deployment URL, or DNS configuration was inspected or changed. Metadata does not establish hosting or DNS by itself.
+Cloudflare sign-in has completed. The dashboard confirms the purchased domain is active in the signed-in account; Workers & Pages shows no existing projects. Pages repository import is open and requires **Connect GitHub**. No Pages project, deployment, or DNS change has been created.
 
-In the open Cloudflare sign-in tab, complete Google sign-in: enter your password and click **Next**, or choose **Try another way** if appropriate. Complete any MFA yourself. Then return to this chat so deployment can continue in the account that owns `justinsejinpark.com`.
+In the open tab, click **Connect GitHub**, sign in if prompted, and approve the Cloudflare integration for **`this-sjin/engineering-portfolio` only** (choose selected repositories rather than all repositories when offered). Complete authentication/MFA and installation approval yourself. Return to this chat once connected. Metadata alone does not establish hosting or DNS.
 
 ## Pages deployment
 
