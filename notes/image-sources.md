@@ -208,3 +208,14 @@ All source files remain unchanged. Native image dimensions preserved; WebP quali
 | `mind-inator/telescoping-lift.webp` | `project-documents/ME 2110 final report/EMO - Final Presentation.pptx` → `image24.png` | 1546 × 606 | `52a5eec57608cb63b14c30caa42a01f9db6ce8e6bf3c2769bbd849795859598f` |
 | `mind-inator/assembled-robot.webp` | `project-documents/ME 2110 final report/Team EMO - Final Report.docx` → `image69.png` | 953 × 1270 | `c1eaf7cbce89f4db288ac990ad2f95d728b5ac4a0bf4e80d75cbe60e51d7ac6d` |
 | `mind-inator/lift-test.webp` | `project-documents/ME 2110 final report/Team EMO - Final Report.docx` → `image65.png` | 1191 × 1073 | `7b6b7bc867383dae37d57371e57898835d763b0d73a62f0659f3da488c774f87` |
+
+### Mind-inator gallery revision — October 3, 2026
+
+Selected the final-report Figure 17 for the lead photograph and the slide 26 preferred-design render for the second highlight. Moved the previous highlights into the lower gallery. Slide 18 and 22 figures include their original labels; crops exclude slide titles and unrelated text, without cropping mechanism labels. WebP quality 93; no generated imagery or source-file changes.
+
+| Public asset | Source in `project-documents/ME 2110 final report/` | Dimensions | SHA-256 |
+| --- | --- | --- | --- |
+| `mind-inator/scissor-push-labeled.webp` | EMO - Final Presentation.pptx.pdf, slide 18; figure crop (364, 98, 715, 383) PDF points, rendered at 300 dpi | 1462 × 1188 | `677aa98f23fd5d66b2c2ed75eff4a97577318475389a28f33eb80a0a3c26c9fe` |
+| `mind-inator/sadness-lift-labeled.webp` | EMO - Final Presentation.pptx.pdf, slide 22; figure crop (196, 78, 547, 399) PDF points, rendered at 300 dpi | 1462 × 1337 | `31ecbc04446abbd79189682e75e6231b41a386877fdd8ebd5f6ce2515618b518` |
+| `mind-inator/preferred-design.webp` | EMO - Final Presentation.pptx.pdf, slide 26; figure crop (390, 132, 674, 350) PDF points, rendered at 300 dpi | 1183 × 908 | `a4b1e7f9651dac52626fe16e4bc8470dae5d1aac63d1e6f1377fe4a8d756359b` |
+| `mind-inator/final-competition.webp` | Team EMO - Final Report.docx, Figure 17; word/media/image8.png (rId28) | 756 × 837 | `bb94f0722867d02c6c6f8caa7bc63f8e9fc61d75512968e644ddd64e3049acc4` |

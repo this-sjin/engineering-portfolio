@@ -6,12 +6,12 @@ Reviewed October 3, 2026. Sources remain read-only. The user's request now autho
 
 - Both `Team EMO - Final Report.docx` and its copy: report dated November 19, 2024; final performance discussion, bill of materials, mechanism descriptions, appendix figures, and contributions statement.
 - Two presentation decks and three PDF exports: 34-page and 39-page versions. Checked slide text, figures, and package relationships. None contains embedded video media; the external template links are unrelated to project video.
-- `Final Video/Recordings` contains three WAV recordings, not a video. No Mind-inator video file was found elsewhere in `source-materials`; the sole MOV belongs to the Camera Rig. The user has been asked for the video filename or URL. No video result or transcript is claimed, and no video placeholder is published.
+- `Final Video/Recordings` contains three WAV recordings, not a video. No Mind-inator video file was found elsewhere in `source-materials`; the sole MOV belongs to the Camera Rig. Video is deferred at the user’s request. No video result or transcript is claimed, and no video placeholder is published.
 - Earlier portfolio evidence supports Justin's mechanism CAD, fabrication, Arduino programming, and actuator integration. The new report's contributions appendix explicitly credits Justin with preferred-design writing, morphological chart, CAD figures, photos/labels, and report editing; it does not claim sole ownership of the robot or code.
 
 ## Content decisions
 
-- Concise, visual-first page using the existing project template: two overview paragraphs, four contribution bullets, compact details, six real hardware/CAD images, and two competition notes.
+- Concise, visual-first page using the existing project template: two overview paragraphs, four contribution bullets, compact details, concise hardware/CAD gallery; the competition-notes section was subsequently removed at the user’s request.
 - Final report supersedes older portfolio figures: $78.91 bill of materials rather than below $70; design review 19th/66 rather than 18th/66; 110 and 101 final-round scores, with no elimination advancement. The first two metrics are omitted from the public page because they add little to the short story.
 - No 95% reliability claim, invented test count, unmeasured performance, or sole-team-result attribution. The report documents retrieval-arm bounce and reduced final competition scoring; the page acknowledges this without overstating success.
 - Three-person Team EMO, Fall 2024, six-week build. Stationary base, motor-driven telescoping PVC lift, pneumatic scissor mechanism, drawer-slide retrieval, winch return, timed Arduino sequencing without sensor feedback.
@@ -24,3 +24,8 @@ Reviewed October 3, 2026. Sources remain read-only. The user's request now autho
 - Reviewed screenshots at 1440 and 390 px and checked 1024 and 768 px: no horizontal overflow or images exceeding their containers. Technical figure dimensions/labels remain uncropped.
 - Mobile menu opens and closes with Escape; native image popup opens and closes with Escape; no console warnings/errors in the new page.
 - Projects retains four featured cards; Mind-inator's new link appears within the less prominent Additional projects section. No duplicate full card was added.
+
+## Requested image revision
+
+Featured the final-report Figure 17 competition photo and slide 26 preferred-design render. Moved retrieval CAD and the previous field photo into Mechanisms and hardware. Replaced the unlabeled lift photo with slide 22’s labeled Sadness Lift figure; added slide 18’s labeled scissor push render alongside the configuration comparison. Original figure labels and proportions are preserved. No video or competition-notes section was added.
+Revision validation: 9 pages and 292 local references pass. All nine page images load; desktop (1440 px) and mobile (390 px) have no horizontal overflow. The labeled scissor figure opens in the existing image viewer. No browser warnings/errors.
