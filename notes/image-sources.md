@@ -113,3 +113,85 @@ Added seven native-resolution image excerpts from the historical public portfoli
 | `website/assets/images/modular-quadcopter/arm-components.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 1, X23.png | 213 × 284 | Separate arm tubes and printed motor-mount components |
 
 Export hashes and locators: `primary-page-image-sources.json`. The survey mission screenshot/plot was intentionally not exported because its scale/test context is insufficient for a technical interpretation. Vendor motor/propeller reference renders and unvalidated simulation plots are not used as personal project evidence. All source files remain read-only.
+
+
+## About portrait replacement — October 3, 2026
+
+User-supplied photograph: `C:/Users/justi/AppData/Local/Temp/codex-clipboard-127ac0e3-6b62-417e-a835-184b6ed5af0f.jpg`. The user requested this as his About portrait. Public export: `website/assets/images/about/justin-graduation.webp`, 1367 × 911, RGB WebP quality 90, preserving the full composition without cropping, upscaling, or generative changes. EXIF orientation applied; source metadata is not carried into the public export. Source SHA-256: `2dd85b33775619c5f39126ee925965f5bbbbcf90037e2001eb3a82353b5cd470`. Export SHA-256: `c46fa1ac85010c446c91b70255b79cd51fae812a69ea6abba87e1f9a1b18389e`. Replaces only the About opening image and caption; the Camera Rig photograph remains on its project page. Uses existing image enlargement and responsive image styles. No source-materials files were changed.
+
+
+### About portrait framing update
+
+At Justin’s request, the About opening photo is now displayed in a larger portrait frame using CSS object-fit: cover and object-position: 92% 50%. Desktop height is 560 px; mobile height is 440 px. The public WebP remains unchanged, and the enlargement popup shows the full uncropped photograph. No raster edits or source changes.
+
+
+## Camera Rig card hardware photograph — October 3, 2026
+
+User-supplied photograph: `C:/Users/justi/AppData/Local/Temp/codex-clipboard-83454197-e3ff-40cf-a1ed-2640f65a30c7.png`. Public export: `website/assets/images/camera-rig/hardware-overview.webp`, 683 × 910, native-resolution RGB WebP quality 90, no cropping or generative edits. Used for the Camera Rig cards on Projects and Home in place of the gimbal CAD thumbnail. Full hardware remains visible using the existing contained image treatment. Source SHA-256: `9008a22e102817aca1f9c7679937386cd7aec3020232e378a74fbc13d92d97f8`. Export SHA-256: `951def1bd25358c04aff38f766795c159061b003b59d0831d56a224e3dcfd94e`. No source-materials files changed.
+
+
+## User-uploaded homepage collage additions — October 3, 2026
+
+Added all four supplied photographs to “A closer look at the work.” Native-resolution RGB WebP quality 90; no source-image cropping, upscaling, or generative changes. Existing collage thumbnails use CSS framing; enlargement shows each complete image. Descriptions identify visible hardware without assigning undocumented projects, responsibilities, or test outcomes. No source-materials files changed.
+
+| Public asset | Supplied source | Pixels |
+| --- | --- | --- |
+| `website/assets/images/home-collage/avionics-closeup.webp` | `C:/Users/justi/AppData/Local/Temp/codex-clipboard-7e04595b-3951-4199-aba0-e7236efa68bb.png` | 958 × 719 |
+| `website/assets/images/home-collage/aircraft-field-setup.webp` | `C:/Users/justi/AppData/Local/Temp/codex-clipboard-8a1ea839-84a9-471b-b498-ce4f6169b595.png` | 958 × 719 |
+| `website/assets/images/home-collage/multirotor-assembly.webp` | `C:/Users/justi/AppData/Local/Temp/codex-clipboard-7536d3e7-30c5-41c5-85f4-dd98077c96e9.png` | 958 × 719 |
+| `website/assets/images/home-collage/printed-quadcopter.webp` | `C:/Users/justi/AppData/Local/Temp/codex-clipboard-cdd51789-5863-4af9-b091-632b51e5a529.png` | 958 × 719 |
+
+Source/export hashes and alt text: [uploaded-collage-sources.json](uploaded-collage-sources.json). Homepage collage now contains 36 photographs.
+
+
+### Camera Rig card framing
+
+At Justin’s request, Home and Projects Camera Rig card images now fill their thumbnail areas using CSS object-fit: cover and centered framing. The public hardware-overview.webp remains unchanged; thumbnail framing can crop portions of the full rig. Other project images retain their existing treatment.
+
+### Camera Rig card photo replacement — October 3, 2026
+
+Replaced the Home and Projects Camera Rig card image with the user-supplied `C:/Users/justi/Downloads/20251118_204342.jpg`. Public copy: `website/assets/images/camera-rig/camera-rig-card-photo.jpg`, 3000 × 2800, byte-identical JPEG. The card uses `object-fit: cover` and a centered 55% focal position to fill the thumbnail while keeping Justin, the quadruped robot, and the raised camera payload visible. The source image remains available uncropped in the public asset. Source/public SHA-256: `6160ed3c83d38ecf6354330b338edbcbce26ca326db0bdf76c240d126fe61b9c`. No source-materials files changed.
+
+### Camera Rig card full-aspect revision
+
+The user supplied a revised version at the same Downloads path and requested that its aspect ratio be preserved. The public `camera-rig-card-photo.jpg` is now a byte-identical 3000 × 2434 JPEG with SHA-256 `506d5a056a41413c32c6b81e3504f64e1b210f440a063e8cac536957a81cc00b`. Home and Projects display the complete photograph at its native 3000:2434 aspect ratio using `object-fit: contain`, with no crop or distortion.
+
+The Camera Rig card media was subsequently returned to the shared 300 px desktop height so it aligns with the other three primary cards. `object-fit: contain` still preserves the complete photograph and its aspect ratio; the surrounding card-media background fills any unused horizontal space.
+
+## Camera Rig displacement FEA — October 3, 2026
+
+Replaced the Camera Rig gallery's roll-axis stress plot with the roll-axis displacement plot from Figure 18 of `source-materials/project-documents/Capstone Fall 25/Final Report/Atlanta Dynamics - Final Report.docx`. The public copy is `website/assets/images/camera-rig/roll-displacement.png`, extracted byte-for-byte from the report's embedded `word/media/image19.png` at 1212 × 682. SHA-256: `4948f87fe5e129f1c75e1505067e6e4a9aaedf8a93812339c59f74d6cdcd6f12`.
+
+The report identifies Figures 17–19 as static displacement analyses under the same assumed 1 kg payload used for the gimbal static simulations. The figure legend reports a maximum resultant displacement of 1.123 mm. The website caption uses those supported terms and units; it does not repeat the report caption's mistaken use of “stress” for a displacement plot. The prior `roll-stress.webp` remains in the public asset archive but is no longer referenced. No source-materials files changed.
+
+### Base-fork displacement revision
+
+At Justin’s request, the gallery now uses the base-fork displacement result from Figure 19 of the same final report instead. Public copy: `website/assets/images/camera-rig/base-fork-displacement.png`, extracted byte-for-byte from embedded `word/media/image4.png`, 1215 × 668, SHA-256 `34cf1ed84719dfd79e23f48c162440453cdc6ec827a8d0fbd66e7bc135fe2a87`. Its legend reports a maximum resultant displacement of 0.3567 mm under the report’s modeled 1 kg payload. The caption uses displacement terminology and millimeters rather than the report caption’s incorrect “stress” wording. The prior roll-axis displacement export remains unreferenced.
+
+## Georgia Tech affiliation wordmark — October 3, 2026
+
+User-supplied GT/Georgia Institute of Technology wordmark, copied byte-for-byte from `C:/Users/justi/AppData/Local/Temp/codex-clipboard-10227334-923b-4fe4-832b-6b9ff094c6d9.png` to `website/assets/images/education/georgia-tech-wordmark.png`. Dimensions: 1500 × 338, RGBA PNG with original transparency. SHA-256: `6b2625a43825f3d2f6261e938c1131cec747fe5123abf0e10a986d27e53abb4c`.
+
+Used beside the homepage introduction's degree/availability information and the About page's Education heading. Native aspect ratio and original colors are preserved. The alternate seal wordmark was not needed. No source-materials files were changed.
+
+### Homepage Camera Rig photo swap — October 3, 2026
+
+At Justin's request, the homepage hero now uses `camera-rig/camera-rig-card-photo.jpg` (Justin beside the completed robot payload), and the selected-project Camera Rig card uses `camera-rig/completed-rig.webp` (hardware photograph). These are existing curated public assets; neither image file was modified. The Projects index and case-study image selections remain unchanged. Camera Rig cards now inherit the shared image heights at all breakpoints: 300 px desktop, 260 px laptop/tablet, and 280 px mobile. Images retain their native proportions with `object-fit: contain`.
+
+## Final release image refinements — October 3, 2026
+
+Replaced six small PDF-derived project photos with higher-resolution copies of the same hardware photographs already curated from the reference homepage. The underlying sources remain in `home-collage-sources.json`. No new engineering claims or invented visuals were added. Updated public HTML intrinsic dimensions to match.
+
+| Project asset | Existing curated source | Native dimensions | SHA-256 |
+| --- | --- | --- | --- |
+| `survey-aircraft/flying-wing.webp` | `home-collage/reference-23.webp` | 1280 × 968 | `84214ff4232037b619df1ec7a5eeda3ee3fe037d10057e0e2952e47cee0111a8` |
+| `survey-aircraft/aircraft-one.webp` | `home-collage/reference-06.webp` | 1278 × 798 | `7d9473a9944a61596fef260a12ca0c8ed167963763b128775a02fbfa18c6844e` |
+| `survey-aircraft/aircraft-two.webp` | `home-collage/reference-09.webp` | 1280 × 960 | `0f27e1b02607fbac9948df07d6da3803e12b8701f4e3555a542282745878c7ef` |
+| `survey-aircraft/flying-wing-field.webp` | `home-collage/reference-05.webp` | 953 × 1270 | `0684e1336b2c69bd9ee166cc04d3cc9833ce9680f142c0d7743a84f9f1d2c1cf` |
+| `modular-quadcopter/completed-quad.webp` | `home-collage/reference-20.webp` | 1280 × 960 | `67941e9c297b61cf46c7de3ee96068f9c8fa2a654488aa256e95b2c0aa9db1fd` |
+| `modular-quadcopter/frame-assembly.webp` | `home-collage/reference-21.webp` | 1280 × 960 | `e9286678be08cb53a39631f5618f4ef93f903bff077edebccfbcbfc9e6f38242` |
+| `camera-rig/camera-rig-hero.webp` | `camera-rig/camera-rig-card-photo.jpg` | 3000 × 2434 | `d7d17a561015c4776ef152328b5437f05e6a876240407d1c875f9ddc34cb4467` |
+
+The full-resolution 3000 × 2434 Camera Rig hero is now WebP quality 90: 846,196 bytes instead of the original JPEG’s 1,801,147 bytes (53% smaller). No crop, image generation, or geometry change was applied. The curated JPEG remains available; source materials were untouched. Technical drawings and FEA legends remain uncropped.
+
+During the final privacy check, GPS metadata was found in that retained public JPEG. Removed its EXIF/XMP metadata segments without recompressing the JPEG image data and verified identical decoded RGB pixels. It is now 1,793,088 bytes, SHA-256 `73a5db0407f71a702a85d9d00c1010e80afaad07e320bfae81ad98098e2a52f9`. The earlier byte-identical-copy entries describe its pre-sanitization state. Original source/Downloads files were unchanged, and the WebP hero already contains no GPS metadata.

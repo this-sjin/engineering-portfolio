@@ -7,3 +7,7 @@ node_modules/
 
 # Private/local reference material
 source-materials/
+
+# Local evidence notes include internal company references; preserve locally only.
+notes/content-inventory.md
+notes/project-evidence.md

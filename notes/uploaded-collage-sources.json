@@ -1,0 +1,38 @@
+[
+  {
+    "asset": "website/assets/images/home-collage/avionics-closeup.webp",
+    "sourceLocal": "C:/Users/justi/AppData/Local/Temp/codex-clipboard-7e04595b-3951-4199-aba0-e7236efa68bb.png",
+    "width": 958,
+    "height": 719,
+    "sha256Original": "7d1597edc8a045574e6d685c91e706f8107e313f9cd9a5316592faf9779ef2fa",
+    "sha256Export": "3c9fe2f97db2a620e7b7d6ef4b16d643e1a7ac8f9a71e4e88754085c365f9a5f",
+    "alt": "Close view of multirotor flight electronics, receiver, and wiring"
+  },
+  {
+    "asset": "website/assets/images/home-collage/aircraft-field-setup.webp",
+    "sourceLocal": "C:/Users/justi/AppData/Local/Temp/codex-clipboard-8a1ea839-84a9-471b-b498-ce4f6169b595.png",
+    "width": 958,
+    "height": 719,
+    "sha256Original": "8639472255c733ae4ebb5090d3399c3d3f80bd0d0b8481c9e481a7dd1c402505",
+    "sha256Export": "24aa5a5613d71f9144f0766ae8b211c54c2c0c1252fcc26afd66399d3f239f01",
+    "alt": "Fixed-wing aircraft and flight equipment beside a vehicle outdoors"
+  },
+  {
+    "asset": "website/assets/images/home-collage/multirotor-assembly.webp",
+    "sourceLocal": "C:/Users/justi/AppData/Local/Temp/codex-clipboard-7536d3e7-30c5-41c5-85f4-dd98077c96e9.png",
+    "width": 958,
+    "height": 719,
+    "sha256Original": "a4bc387db56fc25e1a7a83e0f9ffb061f0cf68fe7575b26a7ae53c8827c93d95",
+    "sha256Export": "bb5d25e4632e2466f186daf61eb416ac71a8746456e31bcde5c335d8ae81e1aa",
+    "alt": "Large multirotor with exposed electronics and batteries during assembly"
+  },
+  {
+    "asset": "website/assets/images/home-collage/printed-quadcopter.webp",
+    "sourceLocal": "C:/Users/justi/AppData/Local/Temp/codex-clipboard-cdd51789-5863-4af9-b091-632b51e5a529.png",
+    "width": 958,
+    "height": 719,
+    "sha256Original": "6afc40b3f5df3535a12bf9fb99b7c2cbeb29f215e72ef9f01d99bcb6b9275a9f",
+    "sha256Export": "f05c240f7eba2ad4117bb7e3ade5a96ce2c4f9bff353fd9aad26d2b9a8599b76",
+    "alt": "Red printed quadcopter frame with blue propellers on a workbench"
+  }
+]

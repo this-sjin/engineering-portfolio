@@ -1,5 +1,19 @@
 # Remaining primary content — local review
 
+## Approved-format verification — October 3, 2026
+
+Following explicit approval of the Camera Rig format, checked all four primary pages for the same shared typography, spacing, image treatment, sidebar, and mobile stacking. Each has exactly two summary paragraphs, four contribution bullets, and no report-style section navigation or long case-study sections. Technical drawings and photographs use uncropped containment and the existing enlargement popup. Heven remains a public-safe, text-led exception with the user-supplied logo; no hardware imagery was invented or copied from private material.
+
+Changed Home and Projects card links to concise “View [project]” labels, changed the index descriptor to “Four featured projects,” and shortened the survey-progression link. The four primary cards retain substantially greater emphasis than secondary summaries. No layout redesign, new pages, deployment work, JavaScript changes, or asset exports were needed.
+
+Rechecked all seven pages at 1440, 1024, 768, and 390 px: 28 viewport checks with no overflow, clipped content, missing images/alt text, or console errors. All 86 local URLs/anchor targets pass. Clicked all four index project links, verified the resume response is a valid PDF, and checked mobile menus, skip-link focus, reduced motion, navigation without JavaScript, and popup keyboard containment/dismissal/focus return on each primary page. Contact email and LinkedIn destinations match personal-info.txt; external LinkedIn availability was not probed. Visually reviewed the Projects index and retained the inspected desktop/mobile primary-page layouts.
+
+Compared concise project copy against the evidence record: personal work remains distinct from team outcomes, the three documented survey configurations remain explicit, quadcopter construction remains mixed-material, and model estimates are not represented as measured performance. Existing technical uncertainties remain omitted or noted briefly.
+
+Source SHA-256 verification: all 945 original reference files unchanged; the only additional archive file remains the previously user-authorized Boreas paper. Public resume is byte-identical to its source. Public assets contain one designated resume PDF, 58 curated raster images, the site-mark SVG, CSS, and JavaScript. No direct source-materials/private-workspace paths or internal company-document links occur in public HTML/CSS/JavaScript. Asset provenance is unchanged.
+
+Ready for local visual review. Remaining improvements are original high-resolution project imagery, approved public Heven imagery, and the factual gaps already recorded below. Secondary case-study pages and deployment remain deferred.
+
 ## Remaining project pages simplified — October 3, 2026
 
 Applied the Camera Rig format to Survey Aircraft, Heven, and Modular Quadcopter at the user's request. Each now has a concise title/context, two summary paragraphs, a desktop quick-details sidebar that stacks after the summary on mobile, four contribution bullets, and two brief technical/scope notes. Removed the long report sections and section navigation. All four primary project pages now share the simplified design.
