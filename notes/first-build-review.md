@@ -1,11 +1,27 @@
 # First implementation review
 
+**Historical stage-one record:** After visual approval, the remaining primary case studies and About were completed. Current seven-page scope and verification are recorded in `primary-build-review.md`. The three-page scope below describes the initial build review.
+
 Reviewed October 3, 2026. Scope: Home, Projects index, Camera Rig case study, shared navigation/footer, CSS, JavaScript, and public assets. No additional pages or deployment configuration were created.
+
+## Follow-up QA after the supplied portrait
+
+Repeated the full three-page review at all four widths after adding Justin's photograph. The original visual direction and page scope are retained. This pass also exercised actual mobile navigation from Home to Projects to Camera Rig to Contact, the resume download, desktop/mobile resizing, and navigation without JavaScript on every page.
+
+Additional fixes:
+
+- Reset the mobile menu on crossing into desktop navigation so returning to mobile starts with a closed menu and accurate `aria-expanded` state.
+- Indicated Projects as the current navigation location while viewing its Camera Rig case study.
+- Updated the Camera Rig image-source sentence to include the user-supplied photograph. Its caption identifies Justin without implying sole ownership of the completed system.
+- Renamed the results region's accessible label to “Camera Rig testing results,” which also makes sense in the stacked mobile layout.
+- Removed redundant mobile font/figure/grid declarations, reused the shared image sizing for the Heven logo, and combined identical collage span rules. Mobile section links inherit their shared flex alignment. CSS/JS cache versions now match across the three pages.
+
+The new photo decodes and enlarges correctly at 1440, 1024, 768, and 390 px. Tab/Shift+Tab remain on Close; Escape restores focus to the original photo link. No larger layout redesign or additional engineering claims were needed. Continue to visually review the long homepage collage, tablet reading density, and the portrait placement in the integration section.
 
 ## Verification
 
 - Exercised all three directory routes in Microsoft Edge at **1440, 1024, 768, and 390 px**, with rendered screenshot review. No page-level horizontal overflow, missing images, or broken card layouts. Technical figures remain contained; mobile results keep each result beside its qualification.
-- Checked **73 distinct local URLs**, including relative navigation, directory routes, assets, resume PDF, favicon, and fragment destinations. All resolve. No console or script errors after fixes.
+- Checked **74 distinct local URLs**, including relative navigation, directory routes, assets, resume PDF, favicon, and fragment destinations. All resolve. No console or script errors after fixes.
 - The main Resume link opens the public PDF directly; Home also offers download. The public PDF is byte-identical to the resume designated in `personal-info.txt`.
 - Contact URLs, location, availability, and display preferences match `personal-info.txt`, which explicitly permits phone display. Verified mailto/tel syntax and the supplied LinkedIn destination. No messages/calls were initiated; external account availability was not authenticated.
 - All pages have one H1, no skipped heading levels, and descriptive image alt text. Keyboard checks cover skip-to-content focus, mobile menu activation/Escape/focus return, image activation, modal focus wrapping, dismissal, and restored image-link focus. Normal image clicks trigger no download or browser-tab navigation.
@@ -35,7 +51,7 @@ Copy correctly describes teleoperated capture, a two-axis gimbal, measured heigh
 
 - SHA-256 comparison confirms **all 945 original source files retain their paths and bytes**. The archive now has 946 files because the Boreas paper was previously added at the user's request. This review changed no source files.
 - Public files contain no source-directory references, absolute workspace paths, Jira/Confluence links, internal documents, customer material, private spreadsheets, CAD archives, or diagrams derived from confidential information.
-- Assets comprise shared CSS/JS, one deliberately selected public resume, 50 curated raster images, and the new JP SVG favicon. Provenance is in `image-sources.md` and `home-collage-sources.json`. The former Boreas flight photo remains a deliberately curated, currently unused public asset.
+- Assets comprise shared CSS/JS, one deliberately selected public resume, 51 curated raster images (including Justin's supplied portrait), and the JP SVG favicon. Provenance is in `image-sources.md` and `home-collage-sources.json`. The former Boreas flight photo remains a deliberately curated, currently unused public asset.
 
 ## Items for Justin's visual review
 

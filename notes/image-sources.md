@@ -91,3 +91,25 @@ At the user's request, all **32 image elements** from the public [Google Sites r
 Exports retain the delivered source dimensions (up to the reference site's 1,280-pixel image-size request), with WebP quality 86 and transparent pixels composited onto white. No crops, generative edits, added labels or altered engineering content. The collage preserves each image's natural proportions and links to its full local export. Alt text describes visible content; unverified project identity, individual authorship, and numeric results are not inferred. The frame-analysis screenshot is illustrative source material, not a new validation claim.
 
 [Machine-readable provenance](home-collage-sources.json) records each local filename, reference image index, original public image URL, pixel dimensions, descriptive alt text, and original/export SHA-256. Source URLs may be temporary Google signed URLs; the durable reference is the public homepage plus its image index and downloaded-image hash. Existing `source-materials` files were not modified or supplemented.
+
+## Justin with the Camera Rig — October 3, 2026
+
+Layout update: the simplified Camera Rig page places this photograph in the prominent opening image pair. All nine existing Camera Rig images retain their original exports and provenance; no new assets were created for the simplification.
+
+User-supplied photograph: `C:/Users/justi/AppData/Local/Temp/codex-clipboard-a3a7be60-77fd-4410-a26c-a7e7509d92be.png`. The user explicitly identified the pictured person as himself. Export: `website/assets/images/camera-rig/justin-with-camera-rig.webp`, 978 × 1304, native-resolution RGB WebP quality 88, without cropping or generative edits. Source SHA-256: `d03329291a42261589d980ee57cc9a274e5c904eb4ef01e089d3be3307779425`. Export SHA-256: `b3dd405cf37679ad73aa0cfacfbf5a1de42e171ec0078b89870e1242d238bf76`. Added to the existing Camera Rig systems-integration section with a caption identifying Justin and crediting the completed rig to the team. It uses the shared enlarged-image popup. No source-materials files were changed.
+
+## Remaining primary pages — October 3, 2026
+
+Added seven native-resolution image excerpts from the historical public portfolio PDF. Photographs use WebP quality 88; CAD uses lossless WebP. Transparency is composited onto white. No crops, upscaling, generative edits, or reconstructed diagrams. Existing public assets are reused for overview hardware, the Heven company logo, and the identified Justin portrait on About. No private company material or native simulation output was exported.
+
+| Public asset | Source / locator | Pixels | Purpose |
+| --- | --- | --- | --- |
+| `website/assets/images/survey-aircraft/suspension-gear-cad.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 4, X18.png | 253 × 149 | First-aircraft suspension landing-gear CAD |
+| `website/assets/images/survey-aircraft/tailwheel-cad.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 2, X35.png | 312 × 341 | Second-aircraft steerable tailwheel CAD |
+| `website/assets/images/survey-aircraft/tailwheel-build.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 2, X36.png | 512 × 384 | Second-aircraft tailwheel and airframe fabrication |
+| `website/assets/images/survey-aircraft/flying-wing-field.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 2, X15.png | 274 × 364 | Third-aircraft flying wing outdoors |
+| `website/assets/images/modular-quadcopter/frame-cad.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 1, X21.png | 301 × 168 | Custom frame CAD with modular mounts and tube arms |
+| `website/assets/images/modular-quadcopter/frame-assembly.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 1, X22.png | 384 × 288 | Printed frame components and tube arms during assembly |
+| `website/assets/images/modular-quadcopter/arm-components.webp` | `old-portfolio/Justin Portfolio 2.pdf`, page 1, X23.png | 213 × 284 | Separate arm tubes and printed motor-mount components |
+
+Export hashes and locators: `primary-page-image-sources.json`. The survey mission screenshot/plot was intentionally not exported because its scale/test context is insufficient for a technical interpretation. Vendor motor/propeller reference renders and unvalidated simulation plots are not used as personal project evidence. All source files remain read-only.

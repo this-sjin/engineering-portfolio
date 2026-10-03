@@ -12,6 +12,11 @@ if (toggle && navigation) {
   navigation.addEventListener('click', (event) => {
     if (event.target.closest('a')) setOpen(false);
   });
+  // Match the CSS breakpoint so a mobile menu does not stay open after resizing.
+  const desktopNavigation = window.matchMedia('(min-width: 701px)');
+  desktopNavigation.addEventListener('change', (event) => {
+    if (event.matches) setOpen(false);
+  });
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' && toggle.getAttribute('aria-expanded') === 'true') {
       setOpen(false);

@@ -2,6 +2,12 @@
 
 Prepared October 2, 2026. Planning only: no website implementation is authorized by this document. Keep `source-materials` read-only. This plan builds on [the content inventory](content-inventory.md) and [the detailed project evidence and conflict record](project-evidence.md), which identify the underlying files and review limits.
 
+## Current project-page direction — October 3, 2026
+
+The user has superseded the long case-study/report layout below. Future project pages should use the simplified Camera Rig format: title and one-line context, prominent real imagery, one or two short summary paragraphs, desktop quick-details sidebar (stacked after the summary on mobile), three to five contribution bullets at most, a clean captioned image gallery, and only a compact optional technical-notes block. Aim for a 30–60-second skim. Preserve individual/team attribution and meaningful limitations; omit unsupported metrics rather than adding long qualification sections. Keep the approved typography, colors, navigation, image enlargement, and accessibility.
+
+Applied to all four primary project pages following the user’s request to simplify the remaining pages. Heven retains a compact text-led presentation with the public company logo because suitable public hardware imagery is unavailable. Primary pages and About already exist. Secondary full pages and deployment remain deferred.
+
 ## Approved amendments and first-stage scope
 
 The user subsequently approved this plan and authorized a limited first implementation. These amendments take precedence over the original proposal below:

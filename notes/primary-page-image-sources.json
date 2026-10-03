@@ -1,0 +1,79 @@
+[
+  {
+    "asset": "website/assets/images/survey-aircraft/suspension-gear-cad.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 4, X18.png",
+    "dimensions": [
+      253,
+      149
+    ],
+    "subject": "First-aircraft suspension landing-gear CAD",
+    "sha256": "1209f5ad975d60b5e13021afc0e2d5e5ca2480e5b0077c90856279ae9687417b"
+  },
+  {
+    "asset": "website/assets/images/survey-aircraft/tailwheel-cad.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 2, X35.png",
+    "dimensions": [
+      312,
+      341
+    ],
+    "subject": "Second-aircraft steerable tailwheel CAD",
+    "sha256": "fd38acd53b7366cbc10c2f231f66980b66f0bbd8c951317828394f59525dfadf"
+  },
+  {
+    "asset": "website/assets/images/survey-aircraft/tailwheel-build.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 2, X36.png",
+    "dimensions": [
+      512,
+      384
+    ],
+    "subject": "Second-aircraft tailwheel and airframe fabrication",
+    "sha256": "f95c57bd8076b50b97cb046ee8be9286f7a795a80f142ce5a4d36b1b2c3bcdc3"
+  },
+  {
+    "asset": "website/assets/images/survey-aircraft/flying-wing-field.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 2, X15.png",
+    "dimensions": [
+      274,
+      364
+    ],
+    "subject": "Third-aircraft flying wing outdoors",
+    "sha256": "18569aa111473e6a71d2891278fd6e0b71644669bbcffaa372e7315c6e0396a6"
+  },
+  {
+    "asset": "website/assets/images/modular-quadcopter/frame-cad.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 1, X21.png",
+    "dimensions": [
+      301,
+      168
+    ],
+    "subject": "Custom frame CAD with modular mounts and tube arms",
+    "sha256": "0d4e32d8ea13a1be789c8257fcd7df02238998073129fb4b91dcad2b8493e784"
+  },
+  {
+    "asset": "website/assets/images/modular-quadcopter/frame-assembly.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 1, X22.png",
+    "dimensions": [
+      384,
+      288
+    ],
+    "subject": "Printed frame components and tube arms during assembly",
+    "sha256": "8dee614a07c008294303ef9d20867c69307cda90a7e29877c77217b9c1a1d0a7"
+  },
+  {
+    "asset": "website/assets/images/modular-quadcopter/arm-components.webp",
+    "source": "old-portfolio/Justin Portfolio 2.pdf",
+    "locator": "page 1, X23.png",
+    "dimensions": [
+      213,
+      284
+    ],
+    "subject": "Separate arm tubes and printed motor-mount components",
+    "sha256": "b0e3bc778769a8017fbba0dcce54a2786243a68af682c9835cfac4f70ba52009"
+  }
+]
