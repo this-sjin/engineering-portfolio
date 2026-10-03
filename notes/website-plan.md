@@ -1,5 +1,9 @@
 # Engineering portfolio website plan
 
+## Production-domain amendment — October 3, 2026
+
+Use **https://justinsejinpark.com** as the intended production origin. The user has authorized Cloudflare deployment/domain connection when access permits, stopping at authentication or approval. This supersedes earlier deployment deferral only; the approved visual system, content accuracy, privacy, read-only sources, and limits on additional pages remain unchanged. See [deployment-readiness.md](deployment-readiness.md) for current access status and exact settings.
+
 Prepared October 2, 2026. Planning only: no website implementation is authorized by this document. Keep `source-materials` read-only. This plan builds on [the content inventory](content-inventory.md) and [the detailed project evidence and conflict record](project-evidence.md), which identify the underlying files and review limits.
 
 ## Current project-page direction — October 3, 2026

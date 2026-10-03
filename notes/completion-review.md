@@ -47,6 +47,10 @@ The release is intended to be committed as `Finish engineering portfolio website
 - Confirm the public Heven summary fits employer disclosure expectations; no private screenshots, ticket details, diagrams, specifications, or customer material are used.
 - Several older CAD/mechanism images remain limited by the available originals. Better exports, approved Heven imagery, the fourth survey configuration, flight logs, or measured validation would improve detail but are not required to publish the current site.
 - Camera Rig controller/mass-definition conflicts and historical UAV performance claims remain unresolved in the local evidence notes and are not presented as established facts on the site.
-- No domain, Cloudflare account, or Pages project has been chosen. Canonical/absolute sharing URLs and a sitemap await the actual production URL; no invented domain or localhost URL is embedded in public metadata.
+- Production-domain amendment: the user purchased `justinsejinpark.com`. Canonical/Open Graph URLs, public sharing images, sitemap, and robots references now use `https://justinsejinpark.com`. Cloudflare sign-in remains the access boundary; hosting and domain connection have not been verified.
 
 The local site is ready for public deployment. Follow [deployment-readiness.md](deployment-readiness.md) to authorize the Cloudflare account/repository connection, use the specified `website` output directory, deploy, and verify the live URL.
+
+## Production-domain verification — October 3, 2026
+
+Added the purchased production origin to all seven indexable pages, using existing curated public images for social previews. Added the seven-route XML sitemap and robots sitemap reference. Extended the dependency-free checker to verify canonical/Open Graph origins, public sharing-image paths, sitemap coverage, and robots linkage. No visible page copy, layout, navigation, source material, image files, or other completion constraints changed. The 404 page remains excluded from indexing. Cloudflare opened at a Google password sign-in prompt; no account, DNS, hosting, or domain configuration was changed.

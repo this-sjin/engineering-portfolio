@@ -4,11 +4,13 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import hashlib
 import re
+import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'website'
 errors = []
 references = 0
+ORIGIN = 'https://justinsejinpark.com'
 
 class Page(HTMLParser):
     def __init__(self):
@@ -16,6 +18,8 @@ class Page(HTMLParser):
         self.ids, self.links, self.headings = [], [], []
         self.title = False
         self.description = False
+        self.canonical = None
+        self.metadata = {}
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
         if 'id' in attrs:
@@ -26,6 +30,10 @@ class Page(HTMLParser):
             self.title = True
         if tag == 'meta' and attrs.get('name') == 'description':
             self.description = bool(attrs.get('content'))
+        if tag == 'meta':
+            self.metadata[attrs.get('property', attrs.get('name'))] = attrs.get('content')
+        if tag == 'link' and attrs.get('rel') == 'canonical':
+            self.canonical = attrs.get('href')
         if tag == 'img' and not attrs.get('alt'):
             errors.append(f'{current}: image missing useful alt text')
         self.links.extend(attrs[a] for a in ('href', 'src') if a in attrs)
@@ -45,6 +53,30 @@ for current in sorted(SITE.rglob('*.html')):
     if re.search(r'source-materials|(?<![A-Za-z])[A-Za-z]:[/\\]|WE-\d+|jira|confluence', text, re.I):
         errors.append(f'{current}: private reference in public HTML')
 
+expected_urls = set()
+for current, page in pages.items():
+    if current.name == '404.html':
+        continue
+    route = current.parent.relative_to(SITE.resolve()).as_posix()
+    expected = ORIGIN + '/' + (route + '/' if route != '.' else '')
+    expected_urls.add(expected)
+    if page.canonical != expected or page.metadata.get('og:url') != expected:
+        errors.append(f'{current}: incorrect production canonical/Open Graph URL')
+    for key in ('og:image', 'twitter:image'):
+        image = page.metadata.get(key, '')
+        if not image.startswith(ORIGIN + '/assets/images/') or not (SITE / urlsplit(image).path.lstrip('/')).is_file():
+            errors.append(f'{current}: invalid public social image {key}')
+
+try:
+    sitemap = ET.parse(SITE / 'sitemap.xml')
+    sitemap_urls = [node.text for node in sitemap.findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
+    if set(sitemap_urls) != expected_urls or len(sitemap_urls) != len(expected_urls):
+        errors.append('Sitemap does not match the seven indexable production routes')
+except (OSError, ET.ParseError) as error:
+    errors.append(f'Invalid sitemap: {error}')
+if f'Sitemap: {ORIGIN}/sitemap.xml' not in (SITE / 'robots.txt').read_text(encoding='utf-8'):
+    errors.append('Robots file is missing the production sitemap URL')
+
 for current, page in pages.items():
     for reference in page.links:
         url = urlsplit(reference)
@@ -63,7 +95,7 @@ for current, page in pages.items():
 for path in SITE.rglob('*'):
     if not path.is_file():
         continue
-    if path.suffix.lower() not in {'.html', '.css', '.js', '.svg', '.webp', '.png', '.jpg', '.pdf', '.txt'} and path.name != '_headers':
+    if path.suffix.lower() not in {'.html', '.css', '.js', '.svg', '.webp', '.png', '.jpg', '.pdf', '.txt', '.xml'} and path.name != '_headers':
         errors.append(f'{path}: unexpected public file type')
     if path.suffix.lower() in {'.html', '.css', '.js', '.svg', '.txt'}:
         text = path.read_text(encoding='utf-8')

@@ -34,4 +34,4 @@ Deploy **only `website/`** using Cloudflare Pages. Use the existing GitHub repos
 
 See [deployment instructions](notes/deployment-readiness.md) for account authorization, exact settings, and the final live-site checks. See [the completion review](notes/completion-review.md) for validation and remaining optional content improvements.
 
-No public origin has been selected. Canonical URLs, absolute social-preview image URLs, and a sitemap should be added once the final deployment URL is confirmed; the pages already include titles, descriptions, and text sharing metadata.
+The intended production origin is **https://justinsejinpark.com**. All seven content pages use this origin for canonical and Open Graph URLs and public social-preview images. `website/sitemap.xml` lists the seven indexable routes; `robots.txt` points to that sitemap. Local navigation remains relative. Hosting and domain connection await Cloudflare authentication.
