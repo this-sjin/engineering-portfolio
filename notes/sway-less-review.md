@@ -17,3 +17,7 @@ Source hashes captured before public extraction; verify unchanged after the buil
 Ten HTML pages and 324 local references pass the static checker. Project page and Selected Work index checked at 1440, 1024, 768, and 390 px with no horizontal overflow. All eight project images load, figure labels remain uncropped, image popup opens/closes, mobile menu works, and no console warnings/errors were recorded. The supplied YouTube page resolves as Sway Less (2:35); no full-video transcript or additional measured results are claimed. All source-folder SHA-256 hashes remain unchanged.
 
 Image revision: ESP32/IMU/motor-driver photo now leads the project and its Selected Work card; original gallery position contains the complete electronics-layout slide (slide 5). Original slide labels and proportions preserved.
+
+Video embed revision: Replaced the video button with a responsive 16:9 YouTube privacy-enhanced iframe in the same summary position. Kept the editing credit and a YouTube fallback link. Added a frame-src allowance limited to www.youtube-nocookie.com; no new JavaScript or autoplay. Explicit referrer policy supports YouTube embed identification.
+
+Embed validation: static check passes for 10 pages and 324 local references. Local YouTube iframe loads and plays the supplied video in place. Mobile player measures 339 × 190.69 px at 390 px viewport with no horizontal overflow. Production playback and frame policy are checked after deployment.
