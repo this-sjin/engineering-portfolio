@@ -15,3 +15,5 @@ Source hashes captured before public extraction; verify unchanged after the buil
 ## Validation
 
 Ten HTML pages and 324 local references pass the static checker. Project page and Selected Work index checked at 1440, 1024, 768, and 390 px with no horizontal overflow. All eight project images load, figure labels remain uncropped, image popup opens/closes, mobile menu works, and no console warnings/errors were recorded. The supplied YouTube page resolves as Sway Less (2:35); no full-video transcript or additional measured results are claimed. All source-folder SHA-256 hashes remain unchanged.
+
+Image revision: ESP32/IMU/motor-driver photo now leads the project and its Selected Work card; original gallery position contains the complete electronics-layout slide (slide 5). Original slide labels and proportions preserved.

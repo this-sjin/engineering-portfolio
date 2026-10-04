@@ -234,3 +234,7 @@ Read-only source folder: `project-documents/ME 4012 Final Project Sway Less/`. T
 | `sway-less/bode.webp` | Final presentation, slide 9, ppt/media/image18.png | 1217 × 790 | `2ff5aa23420011c0b0a50790a6504928120751df2393f200b76d33f0dffcd18a` |
 | `sway-less/root-locus.webp` | Final presentation, slide 14, ppt/media/image27.png | 1239 × 785 | `1421e8a38bb0cf3702526515a653469d637d381a9527567807c94fac9d10cbef` |
 | `sway-less/simulated-recovery.webp` | Final presentation, slide 19, ppt/media/image34.png | 952 × 624 | `e8ee38969351140b3c17ae749edb229bf1e01bc845aa5e895e661e388670ade1` |
+
+### Sway Less lead photo and electronics layout revision
+
+Promoted the existing `sway-less/electronics.webp` photograph to the project lead, Selected Work thumbnail, and social preview. Replaced its original gallery position with `sway-less/electronics-layout.webp`: faithful PowerPoint PNG export of slide 5, Electronics Layout, from a read-only scratch copy of `ME 4012 Presentation - Sway Less .pptx`, re-encoded WebP quality 93 at 2400 × 1350. Entire original slide preserved, without redrawing or cropping. SHA-256 `e2dff856650e040d773032b4368b80f16c46f7e42cc37eb47ac34608b0d41070`. Source deck unchanged.
