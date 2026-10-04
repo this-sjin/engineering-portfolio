@@ -219,3 +219,18 @@ Selected the final-report Figure 17 for the lead photograph and the slide 26 pre
 | `mind-inator/sadness-lift-labeled.webp` | EMO - Final Presentation.pptx.pdf, slide 22; figure crop (196, 78, 547, 399) PDF points, rendered at 300 dpi | 1462 × 1337 | `31ecbc04446abbd79189682e75e6231b41a386877fdd8ebd5f6ce2515618b518` |
 | `mind-inator/preferred-design.webp` | EMO - Final Presentation.pptx.pdf, slide 26; figure crop (390, 132, 674, 350) PDF points, rendered at 300 dpi | 1183 × 908 | `a4b1e7f9651dac52626fe16e4bc8470dae5d1aac63d1e6f1377fe4a8d756359b` |
 | `mind-inator/final-competition.webp` | Team EMO - Final Report.docx, Figure 17; word/media/image8.png (rId28) | 756 × 837 | `bb94f0722867d02c6c6f8caa7bc63f8e9fc61d75512968e644ddd64e3049acc4` |
+
+## Sway Less public figures — October 3, 2026
+
+Read-only source folder: `project-documents/ME 4012 Final Project Sway Less/`. The 31-slide `ME 4012 Presentation - Sway Less .pptx` is the completed deck; the underscore-named deck contains draft/template material. Curated figures preserve complete labels and native proportions, WebP quality 93. No generated imagery, source edits, private documents, or video downloads.
+
+| Public image | Source | Dimensions | SHA-256 |
+| --- | --- | --- | --- |
+| `sway-less/prototype.webp` | Final presentation, slide 30, ppt/media/image13.png | 1053 × 766 | `bb8287433d3f0482a568f96b9edbfbea56984a6080122f3a1ecf58d2b7948cb4` |
+| `sway-less/cad.webp` | Final presentation, slide 31, ppt/media/image49.png | 925 × 836 | `fd582558aec84f69fbdefb76d759eca0ce0bdeeaedf1b6ad983b8e23c73b5f16` |
+| `sway-less/electronics.webp` | Final presentation, slide 30, ppt/media/image14.png | 1056 × 770 | `66113fd6713f943de843ea067852c54917e00d8b570923bb987363747a988925` |
+| `sway-less/motor-side.webp` | Final presentation embedded ppt/media/image17.png; same labeled figure as Project Update 2 Figure 3 | 1051 × 774 | `7868275e15cc8e5126f10fd103d0a121ee94a0545f999668b7ab68b910b59a44` |
+| `sway-less/control-diagram.webp` | Other Files/Final Block Diagram-1.png; also final presentation slide 8 | 1700 × 608 | `0893559535f08a6e25bb7be0535c133070fbe8d5896e523fad8e34cebe6ca6ae` |
+| `sway-less/bode.webp` | Final presentation, slide 9, ppt/media/image18.png | 1217 × 790 | `2ff5aa23420011c0b0a50790a6504928120751df2393f200b76d33f0dffcd18a` |
+| `sway-less/root-locus.webp` | Final presentation, slide 14, ppt/media/image27.png | 1239 × 785 | `1421e8a38bb0cf3702526515a653469d637d381a9527567807c94fac9d10cbef` |
+| `sway-less/simulated-recovery.webp` | Final presentation, slide 19, ppt/media/image34.png | 952 × 624 | `e8ee38969351140b3c17ae749edb229bf1e01bc845aa5e895e661e388670ade1` |
