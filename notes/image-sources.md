@@ -238,3 +238,12 @@ Read-only source folder: `project-documents/ME 4012 Final Project Sway Less/`. T
 ### Sway Less lead photo and electronics layout revision
 
 Promoted the existing `sway-less/electronics.webp` photograph to the project lead, Selected Work thumbnail, and social preview. Replaced its original gallery position with `sway-less/electronics-layout.webp`: faithful PowerPoint PNG export of slide 5, Electronics Layout, from a read-only scratch copy of `ME 4012 Presentation - Sway Less .pptx`, re-encoded WebP quality 93 at 2400 × 1350. Entire original slide preserved, without redrawing or cropping. SHA-256 `e2dff856650e040d773032b4368b80f16c46f7e42cc37eb47ac34608b0d41070`. Source deck unchanged.
+
+## Survey Aircraft flight-log screenshots — October 4, 2026
+
+User-supplied screenshots deliberately selected for public display. Byte-identical PNG copies, complete plots/legends/map attribution preserved. No crop, image generation, measured-performance inference, or source-materials changes. Aircraft configuration and flight date are unspecified.
+
+| Public image | User attachment | Dimensions | SHA-256 |
+| --- | --- | --- | --- |
+| `survey-aircraft/flight-path-log.png` | `codex-clipboard-4eba9a66-2f6e-46b0-8e12-332ffc323407.png` | 1008 × 970 | `f59d9a219ad2f04195f92940e9030507d7baa984bc72b37d73784dc64108a0ce` |
+| `survey-aircraft/altitude-log.png` | `codex-clipboard-9ecf077b-7028-409c-b09d-ebf6315e1a06.png` | 848 × 407 | `ab30c200bc87b7f9da6a94139921d74ac8e09b309a7ceb18de2e3f021143b0e9` |

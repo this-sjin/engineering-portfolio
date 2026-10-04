@@ -57,3 +57,9 @@ At Justin’s request, replaced the About opening photo with his supplied gradua
 Added the user-supplied YouTube video FzA6RJGJmbg directly below the Camera Rig overview using the shared responsive project-video component. Privacy-enhanced iframe, descriptive title, no autoplay, and a YouTube fallback link. No additional JavaScript, source edits, or unsupported video-authorship claims.
 
 Capstone embed validation: 10 pages and 324 local references pass. Player loads the supplied Atlanta Dynamics expo video and plays in place. At 390 px the player is 339 × 190.69 px with no horizontal overflow. Existing shared CSS and YouTube frame permission are reused.
+
+### Survey Aircraft flight-log figures
+
+Added both user-supplied screenshots in a compact Flight-log views gallery after the airframe images. Preserved plot axes, legends, and map attribution; existing image popup provides full-size viewing. No configuration, flight date, tracking-accuracy, endurance, or performance claim inferred. Existing limitation on comparisons between aircraft configurations remains accurate.
+
+Flight-log validation: static checks pass for 10 pages and 328 local references. Both images load with object-fit contain, desktop/mobile have no horizontal overflow, and the flight-path popup opens/closes successfully.
