@@ -51,3 +51,9 @@ Deployment remains deferred pending local visual approval.
 ## About portrait update — October 3, 2026
 
 At Justin’s request, replaced the About opening photo with his supplied graduation portrait. Updated alt text, enlargement label, image dimensions, and caption. Added one curated WebP with provenance in image-sources.md; the earlier rig photo remains on Camera Rig. The public raster count is now 59. No source files were changed.
+
+### Camera Rig capstone video — October 3, 2026
+
+Added the user-supplied YouTube video FzA6RJGJmbg directly below the Camera Rig overview using the shared responsive project-video component. Privacy-enhanced iframe, descriptive title, no autoplay, and a YouTube fallback link. No additional JavaScript, source edits, or unsupported video-authorship claims.
+
+Capstone embed validation: 10 pages and 324 local references pass. Player loads the supplied Atlanta Dynamics expo video and plays in place. At 390 px the player is 339 × 190.69 px with no horizontal overflow. Existing shared CSS and YouTube frame permission are reused.
