@@ -63,3 +63,7 @@ Capstone embed validation: 10 pages and 324 local references pass. Player loads 
 Added both user-supplied screenshots in a compact Flight-log views gallery after the airframe images. Preserved plot axes, legends, and map attribution; existing image popup provides full-size viewing. No configuration, flight date, tracking-accuracy, endurance, or performance claim inferred. Existing limitation on comparisons between aircraft configurations remains accurate.
 
 Flight-log validation: static checks pass for 10 pages and 328 local references. Both images load with object-fit contain, desktop/mobile have no horizontal overflow, and the flight-path popup opens/closes successfully.
+
+### Homepage Sway Less card — October 4, 2026
+
+Added Sway Less as the fifth homepage Selected Projects card, reusing the Projects index’s current integration image, evidence-based copy, tags, and page link. Updated the section description to include motion control. Existing shared card heights and responsive layout are retained; no new assets or source edits.
