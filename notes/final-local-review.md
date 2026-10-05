@@ -67,3 +67,8 @@ Flight-log validation: static checks pass for 10 pages and 328 local references.
 ### Homepage Sway Less card — October 4, 2026
 
 Added Sway Less as the fifth homepage Selected Projects card, reusing the Projects index’s current integration image, evidence-based copy, tags, and page link. Updated the section description to include motion control. Existing shared card heights and responsive layout are retained; no new assets or source edits.
+
+
+### Closing project notes removed — October 5, 2026
+
+At Justin’s request, removed the closing Team test notes, Development notes, and Build and testing notes sections from Camera Rig, Survey Aircraft, and Modular Quadcopter. Heven, Mind-inator, and Sway Less already had no closing notes section. Preserved the project summaries, team attribution, galleries, simulation captions, and navigation without adding any success or performance claims. Replaced the homepage link to the removed Camera Rig notes with a link to the Survey Aircraft flight-log gallery, and removed unused notes-section CSS. Source materials remain unchanged.
